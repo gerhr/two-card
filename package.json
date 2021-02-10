@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "clsx": "^1.1.1",
+    "lodash": "^4.17.20",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.0.1",
+    "react-statemachine-hook": "^1.0.3",
+    "reset-css": "^5.0.1",
+    "switch-function": "^1.2.0",
+    "use-state-machine": "^3.0.5"
   },
   "scripts": {
     "start": "react-scripts start",

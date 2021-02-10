@@ -1,0 +1,12 @@
+.hand {
+  display: flex;
+  flex-direction: "row";
+}
+
+.hand > * {
+  margin: 8px;
+}
+
+.card-header {
+  display: block;
+}

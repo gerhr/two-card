@@ -1,0 +1,32 @@
+.card-frame {
+  border-radius: 5px;
+}
+
+.card {
+  border-radius: 5px;
+  background-color: #1F593A;
+  height: 125px;
+  width: 100px;
+  user-select: none;
+  box-shadow: 1px 2px 2px #1f593a;
+}
+
+.reverse {
+  background-color:#66a3ff;
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.8) 10px,
+      transparent 0px,
+      transparent 20px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5) 10px,
+      transparent 0px,
+      transparent 20px
+    );
+  box-shadow: inset 0px 0px 0px 4px #fcfcfc;
+}
